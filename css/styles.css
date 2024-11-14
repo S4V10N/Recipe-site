@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+*{
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+}
+
+:root{
+    --HEADERFONT: 'Young Serif', serif;
+    --BODYFONT: 'Outfit' , sans-serif;
+    --BACKGROUNDCOLOR: #fff8e7;
+    --BOXBACKGROUND:  #cc187b1f;
+    --FONTCOLOR: #5e113b;
+    --WHITEFONT: white;
+    --BLACKFONT: black;
+}
+
+html{
+    background-color: var(--WHITEFONT);
+    scroll-behavior: smooth;
+}
+
+img{
+    height: 24vh;
+}
+.box{
+    background-color: var(--BOXBACKGROUND);
+    margin: 1.2rem 1rem 1.8rem 1rem;
+    width: 90vw;
+    height: 40vh;
+    border-radius: 2vh;
+}
+header{
+    height: 105vh;
+    background-color: var(--WHITEFONT);
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    font-family: var(--HEADERFONT);
+    font-weight: lighter;
+    margin: 1.6rem 0rem 1.6rem 0rem;
+    padding: 0rem 0rem 0rem 1rem;
+}
+
+.text{
+    font-family: var(--BODYFONT);
+    padding: 0rem 0rem 1.6rem 1rem;
+    font-size: 1.1rem;
+}
+.header{
+    text-align: left;
+    font-family: var(--BODYFONT);
+    color: var(--FONTCOLOR);
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin: 1.5rem 0rem 1.2rem 1.2rem;
+}
+span{
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--BLACKFONT);
+    font-family: var(--BODYFONT);
+}
+
+li{
+    font-family: var(--BODYFONT);
+    font-weight: 450;
+    list-style-position: inside;
+    margin: 1.2rem 0rem 1rem 2rem;
+}
+
+.header-second{
+    font-family: var(--HEADERFONT);
+    font-weight: lighter;
+    margin: 1rem 0rem 1.4rem 0rem;
+    padding: 0rem 0rem 0rem 1rem;
+    font-size: 1.8rem;
+    color: var(--FONTCOLOR);
+}
+ol li{
+    text-indent: -2rem;
+    margin-left: 3.5rem;
+    padding-right: 1rem;
+}
+
+.span{
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--BLACKFONT);
+    font-family: var(--BODYFONT);
+    margin-left: 1rem;
+}
+
+table{
+    background-color: var(--BOXBACKGROUND);
+    width: 90vw;
+    height: 40vh;
+    margin: 1.2rem 1rem 1.8rem 1rem;
+}
+
+tr{
+    text-align: center;
+    font-family: var(--BODYFONT);
+    font-size: 1.3rem;
+    background-color: var(--BOXBACKGROUND);
+    border-radius: 2vh;
+}

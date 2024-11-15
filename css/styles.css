@@ -13,7 +13,7 @@
     --HEADERFONT: 'Young Serif', serif;
     --BODYFONT: 'Outfit' , sans-serif;
     --BACKGROUNDCOLOR: #fff8e7;
-    --BOXBACKGROUND:  #cc187b1f;
+    --BOXBACKGROUND:  #cc187b0c;
     --FONTCOLOR: #5e113b;
     --WHITEFONT: white;
     --BLACKFONT: black;
@@ -74,10 +74,21 @@ li{
     margin: 1.2rem 0rem 1rem 2rem;
 }
 
+ul{
+    margin-bottom: 2rem;
+}
+.header-secondary{
+    font-family: var(--HEADERFONT);
+    font-weight: lighter;
+    margin: 0rem 0rem 1.4rem 0rem;
+    padding: 0rem 0rem 0rem 1rem;
+    font-size: 1.8rem;
+    color: var(--FONTCOLOR);
+}
 .header-second{
     font-family: var(--HEADERFONT);
     font-weight: lighter;
-    margin: 1rem 0rem 1.4rem 0rem;
+    margin: 2rem 0rem 1.4rem 0rem;
     padding: 0rem 0rem 0rem 1rem;
     font-size: 1.8rem;
     color: var(--FONTCOLOR);
@@ -88,6 +99,10 @@ ol li{
     padding-right: 1rem;
 }
 
+ol{
+    margin-bottom: 2rem;
+}
+
 .span{
     font-size: 1rem;
     font-weight: bold;
@@ -96,17 +111,61 @@ ol li{
     margin-left: 1rem;
 }
 
-table{
-    background-color: var(--BOXBACKGROUND);
-    width: 90vw;
+.table{
     height: 40vh;
-    margin: 1.2rem 1rem 1.8rem 1rem;
+    width: 90vw;
+    margin: 0rem 1rem 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: var(--WHITEFONT);
+    align-items: center;
+    justify-content: top;
 }
 
-tr{
-    text-align: center;
+.div{
+    height: 15vh;
+    width: 90vw;
+    display: flex;
+    align-items: center;
     font-family: var(--BODYFONT);
-    font-size: 1.3rem;
-    background-color: var(--BOXBACKGROUND);
-    border-radius: 2vh;
+    font-size: 1.2rem;
+    border-bottom: 1px solid black;
+}
+
+div p{
+    text-align: left;
+    text-indent: 2rem;
+    width: 100%;
+}
+
+.table-span{
+    color: var(--FONTCOLOR);
+    width: 60vw;
+    margin-left: 4.36rem;
+}
+.table-span2{
+    color: var(--FONTCOLOR);
+    width: 60vw;
+    margin-left: 5.7rem;
+}
+.table-span3{
+    color: var(--FONTCOLOR);
+    width: 60vw;
+    margin-left: 5.1rem;
+}
+.table-span4{
+    color: var(--FONTCOLOR);
+    width: 60vw;
+    margin-left: 7.2rem;
+}
+
+.hr{
+    border-top: 1px solid black;
+    margin: 0rem 1rem;
+}
+.sign-off{
+    font-family: var(--BODYFONT);
+    font-size: 1.2rem;
+    margin: 1rem;
 }

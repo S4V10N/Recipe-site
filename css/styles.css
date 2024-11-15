@@ -25,7 +25,7 @@ html{
 }
 
 img{
-    height: 24vh;
+    /* height: 24vh; */
 }
 .box{
     background-color: var(--BOXBACKGROUND);

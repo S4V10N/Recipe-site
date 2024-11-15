@@ -30,12 +30,10 @@ img{
 .box{
     background-color: var(--BOXBACKGROUND);
     margin: 1.2rem 1rem 1.8rem 1rem;
-    width: 90vw;
-    height: 40vh;
+    height: 13rem;
     border-radius: 2vh;
 }
 header{
-    height: 105vh;
     background-color: var(--WHITEFONT);
     display: flex;
     flex-direction: column;
@@ -101,6 +99,7 @@ ol li{
 
 ol{
     margin-bottom: 2rem;
+    font-size: 1.1rem;
 }
 
 .span{
@@ -130,7 +129,7 @@ ol{
     align-items: center;
     font-family: var(--BODYFONT);
     font-size: 1.2rem;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.562);
 }
 
 div p{
@@ -161,7 +160,7 @@ div p{
 }
 
 .hr{
-    border-top: 1px solid black;
+    border-top: 1px solid rgba(0, 0, 0, 0.562);
     margin: 0rem 1rem;
 }
 .sign-off{
